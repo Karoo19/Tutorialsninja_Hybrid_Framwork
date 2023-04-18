@@ -88,7 +88,7 @@ public class RegisterTest extends TestBase {
 	}
 	
 	
-	@Test(priority=3)
+	@Test(priority=4)
 	public void VerifyRegisteringanAccountWithoutEntringAnydetails() {
 		
 		

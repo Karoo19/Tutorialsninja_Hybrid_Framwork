@@ -23,7 +23,7 @@ public class SearchTest extends TestBase {
 	@Test(priority=1)
 	public void verifySearchWithValidProduct() {
 		
-		driver.findElement(By.name("search")).sendKeys(dataProp.getProperty("ValidProduc"));
+		driver.findElement(By.name("search")).sendKeys(dataProp.getProperty("validProduct"));
 		driver.findElement(By.xpath("//div[@id='search']/descendant::button")).click();
 		Assert.assertTrue(driver.findElement(By.linkText("HP LP3065")).isDisplayed());
 		
@@ -32,7 +32,7 @@ public class SearchTest extends TestBase {
 	@Test(priority=2)
 	public void verifySearchwithInvalidproduct() {
 		
-		driver.findElement(By.name("search")).sendKeys(dataProp.getProperty("InvalidProduct"));
+		driver.findElement(By.name("search")).sendKeys(dataProp.getProperty("invalidProduct"));
 		driver.findElement(By.xpath("//div[@id='search']/descendant::button")).click();
 		
 		String actualSearchMessage = driver.findElement(By.xpath("//div[@id='content']/h2/following-sibling::p")).getText();

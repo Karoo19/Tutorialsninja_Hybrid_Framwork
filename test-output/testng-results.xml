@@ -1,386 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="6" failed="12" skipped="0">
+<testng-results ignored="0" total="11" passed="6" failed="2" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-10T21:17:54 EDT" name="TutorialsNinja automation suite" finished-at="2023-04-10T21:19:21 EDT" duration-ms="87039">
+  <suite started-at="2023-04-11T21:03:52 EDT" name="Default suite" finished-at="2023-04-11T21:04:51 EDT" duration-ms="58764">
     <groups>
     </groups>
-    <test started-at="2023-04-10T21:17:54 EDT" name="Tutorialsninja Tests" finished-at="2023-04-10T21:19:21 EDT" duration-ms="87039">
-      <class name="com.tutorialsninja.qa.testcases.RegisterTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:17:54 EDT" name="setUp" finished-at="2023-04-10T21:18:00 EDT" duration-ms="5512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="VerifyRegisteringAnAccountUsingValidCredentials()[pri:1, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:00 EDT" name="VerifyRegisteringAnAccountUsingValidCredentials" finished-at="2023-04-10T21:18:00 EDT" duration-ms="14" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-at com.tutorialsninja.qa.testcases.RegisterTest.VerifyRegisteringAnAccountUsingValidCredentials(RegisterTest.java:36)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyRegisteringAnAccountUsingValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:00 EDT" name="tearDown" finished-at="2023-04-10T21:18:00 EDT" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:00 EDT" name="setUp" finished-at="2023-04-10T21:18:05 EDT" duration-ms="4678" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="VerifyRegisteringanAccountbyprovidingAllfields()[pri:2, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:05 EDT" name="VerifyRegisteringanAccountbyprovidingAllfields" finished-at="2023-04-10T21:18:05 EDT" duration-ms="13" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-at com.tutorialsninja.qa.testcases.RegisterTest.VerifyRegisteringanAccountbyprovidingAllfields(RegisterTest.java:55)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyRegisteringanAccountbyprovidingAllfields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:05 EDT" name="tearDown" finished-at="2023-04-10T21:18:05 EDT" duration-ms="198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:05 EDT" name="setUp" finished-at="2023-04-10T21:18:09 EDT" duration-ms="4343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="VerifyRegisteringanAccountWithoutEntringAnydetails()[pri:3, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:09 EDT" name="VerifyRegisteringanAccountWithoutEntringAnydetails" finished-at="2023-04-10T21:18:09 EDT" duration-ms="403" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[policy Warning Message is not displayed expected [null] but found [Warning: You must agree to the Privacy Policy!]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: policy Warning Message is not displayed expected [null] but found [Warning: You must agree to the Privacy Policy!]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEqualsImpl(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at com.tutorialsninja.qa.testcases.RegisterTest.VerifyRegisteringanAccountWithoutEntringAnydetails(RegisterTest.java:98)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyRegisteringanAccountWithoutEntringAnydetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:09 EDT" name="tearDown" finished-at="2023-04-10T21:18:10 EDT" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:10 EDT" name="setUp" finished-at="2023-04-10T21:18:14 EDT" duration-ms="4389" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="VerifyRegisteringanAccountbyregistringWithExistingEmailAdress()[pri:3, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:14 EDT" name="VerifyRegisteringanAccountbyregistringWithExistingEmailAdress" finished-at="2023-04-10T21:18:14 EDT" duration-ms="12" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-at com.tutorialsninja.qa.testcases.RegisterTest.VerifyRegisteringanAccountbyregistringWithExistingEmailAdress(RegisterTest.java:74)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyRegisteringanAccountbyregistringWithExistingEmailAdress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.RegisterTest@7bd4937b]" started-at="2023-04-10T21:18:14 EDT" name="tearDown" finished-at="2023-04-10T21:18:14 EDT" duration-ms="192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.tutorialsninja.qa.testcases.RegisterTest -->
-      <class name="com.tutorialsninja.qa.testcases.SearchTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5ba3f27a]" started-at="2023-04-10T21:19:09 EDT" name="setUp" finished-at="2023-04-10T21:19:13 EDT" duration-ms="3700" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.tutorialsninja.qa.testcases.SearchTest@5ba3f27a]" started-at="2023-04-10T21:19:13 EDT" name="verifySearchWithValidProduct" finished-at="2023-04-10T21:19:13 EDT" duration-ms="13" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-at com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithValidProduct(SearchTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithValidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5ba3f27a]" started-at="2023-04-10T21:19:13 EDT" name="tearDown" finished-at="2023-04-10T21:19:13 EDT" duration-ms="186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5ba3f27a]" started-at="2023-04-10T21:19:13 EDT" name="setUp" finished-at="2023-04-10T21:19:17 EDT" duration-ms="3630" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySearchwithInvalidproduct()[pri:2, instance:com.tutorialsninja.qa.testcases.SearchTest@5ba3f27a]" started-at="2023-04-10T21:19:17 EDT" name="verifySearchwithInvalidproduct" finished-at="2023-04-10T21:19:17 EDT" duration-ms="14" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-at com.tutorialsninja.qa.testcases.SearchTest.verifySearchwithInvalidproduct(SearchTest.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchwithInvalidproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5ba3f27a]" started-at="2023-04-10T21:19:17 EDT" name="tearDown" finished-at="2023-04-10T21:19:17 EDT" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5ba3f27a]" started-at="2023-04-10T21:19:17 EDT" name="setUp" finished-at="2023-04-10T21:19:21 EDT" duration-ms="3552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySearchWithoutAnyproduct()[pri:3, instance:com.tutorialsninja.qa.testcases.SearchTest@5ba3f27a]" started-at="2023-04-10T21:19:21 EDT" name="verifySearchWithoutAnyproduct" finished-at="2023-04-10T21:19:21 EDT" duration-ms="459" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[No product in search List is not displayed expected [null] but found [There is no product that matches the search criteria.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: No product in search List is not displayed expected [null] but found [There is no product that matches the search criteria.]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEqualsImpl(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithoutAnyproduct(SearchTest.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithoutAnyproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@5ba3f27a]" started-at="2023-04-10T21:19:21 EDT" name="tearDown" finished-at="2023-04-10T21:19:21 EDT" duration-ms="178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.tutorialsninja.qa.testcases.SearchTest -->
+    <test started-at="2023-04-11T21:03:52 EDT" name="Default test" finished-at="2023-04-11T21:04:51 EDT" duration-ms="58764">
       <class name="com.tutorialsninja.qa.testcases.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:14 EDT" name="setUp" finished-at="2023-04-10T21:18:19 EDT" duration-ms="4360" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:03:52 EDT" name="setUp" finished-at="2023-04-11T21:03:58 EDT" duration-ms="5973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:19 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-10T21:18:19 EDT" duration-ms="838" status="PASS">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:03:58 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-11T21:04:00 EDT" duration-ms="1180" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,15 +27,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:19 EDT" name="tearDown" finished-at="2023-04-10T21:18:20 EDT" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:00 EDT" name="tearDown" finished-at="2023-04-11T21:04:00 EDT" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:20 EDT" name="setUp" finished-at="2023-04-10T21:18:24 EDT" duration-ms="3973" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:00 EDT" name="setUp" finished-at="2023-04-11T21:04:04 EDT" duration-ms="4283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:24 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-10T21:18:24 EDT" duration-ms="792" status="PASS">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:04 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-11T21:04:05 EDT" duration-ms="1199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -420,15 +51,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:24 EDT" name="tearDown" finished-at="2023-04-10T21:18:25 EDT" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:05 EDT" name="tearDown" finished-at="2023-04-11T21:04:06 EDT" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:25 EDT" name="setUp" finished-at="2023-04-10T21:18:29 EDT" duration-ms="4039" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:06 EDT" name="setUp" finished-at="2023-04-11T21:04:10 EDT" duration-ms="4692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:29 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-10T21:18:29 EDT" duration-ms="808" status="PASS">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:10 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-11T21:04:11 EDT" duration-ms="984" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -444,15 +75,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:29 EDT" name="tearDown" finished-at="2023-04-10T21:18:30 EDT" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:11 EDT" name="tearDown" finished-at="2023-04-11T21:04:11 EDT" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:30 EDT" name="setUp" finished-at="2023-04-10T21:18:34 EDT" duration-ms="4073" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:11 EDT" name="setUp" finished-at="2023-04-11T21:04:17 EDT" duration-ms="5695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:34 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-10T21:18:35 EDT" duration-ms="833" status="PASS">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:17 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-11T21:04:18 EDT" duration-ms="1050" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -468,15 +99,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:35 EDT" name="tearDown" finished-at="2023-04-10T21:18:35 EDT" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:18 EDT" name="tearDown" finished-at="2023-04-11T21:04:18 EDT" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:35 EDT" name="setUp" finished-at="2023-04-10T21:18:39 EDT" duration-ms="4104" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:18 EDT" name="setUp" finished-at="2023-04-11T21:04:23 EDT" duration-ms="4619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:39 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-10T21:18:40 EDT" duration-ms="825" status="PASS">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:23 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-11T21:04:24 EDT" duration-ms="1069" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -492,15 +123,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:40 EDT" name="tearDown" finished-at="2023-04-10T21:18:40 EDT" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:24 EDT" name="tearDown" finished-at="2023-04-11T21:04:24 EDT" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:40 EDT" name="setUp" finished-at="2023-04-10T21:18:44 EDT" duration-ms="4120" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:24 EDT" name="setUp" finished-at="2023-04-11T21:04:29 EDT" duration-ms="4698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:44 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-10T21:18:45 EDT" duration-ms="819" status="PASS">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:29 EDT" name="VerifyLoggingintoTheApplicationUsingValidCredentials" data-provider="supplyTestData" finished-at="2023-04-11T21:04:30 EDT" duration-ms="1009" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -516,15 +147,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:45 EDT" name="tearDown" finished-at="2023-04-10T21:18:45 EDT" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:30 EDT" name="tearDown" finished-at="2023-04-11T21:04:30 EDT" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:45 EDT" name="setUp" finished-at="2023-04-10T21:18:49 EDT" duration-ms="4067" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:30 EDT" name="setUp" finished-at="2023-04-11T21:04:35 EDT" duration-ms="4696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingInvalidUsernameAndValidPassword()[pri:2, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:49 EDT" name="VerifyLoggingintoTheApplicationUsingInvalidUsernameAndValidPassword" finished-at="2023-04-10T21:18:50 EDT" duration-ms="545" status="FAIL">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingInvalidUsernameAndValidPassword()[pri:2, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:35 EDT" name="VerifyLoggingintoTheApplicationUsingInvalidUsernameAndValidPassword" finished-at="2023-04-11T21:04:36 EDT" duration-ms="755" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.lang.CharSequence.toString()" because "s" is null]]>
@@ -567,15 +198,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingInvalidUsernameAndValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:50 EDT" name="tearDown" finished-at="2023-04-10T21:18:50 EDT" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:36 EDT" name="tearDown" finished-at="2023-04-11T21:04:36 EDT" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:50 EDT" name="setUp" finished-at="2023-04-10T21:18:54 EDT" duration-ms="4046" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:36 EDT" name="setUp" finished-at="2023-04-11T21:04:41 EDT" duration-ms="4685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingValidUsernameAndInvalidPasswordd()[pri:3, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:54 EDT" name="VerifyLoggingintoTheApplicationUsingValidUsernameAndInvalidPasswordd" finished-at="2023-04-10T21:18:54 EDT" duration-ms="528" status="FAIL">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingValidUsernameAndInvalidPasswordd()[pri:3, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:41 EDT" name="VerifyLoggingintoTheApplicationUsingValidUsernameAndInvalidPasswordd" finished-at="2023-04-11T21:04:41 EDT" duration-ms="601" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.lang.CharSequence.toString()" because "s" is null]]>
@@ -618,29 +249,58 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingValidUsernameAndInvalidPasswordd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:54 EDT" name="tearDown" finished-at="2023-04-10T21:18:55 EDT" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:41 EDT" name="tearDown" finished-at="2023-04-11T21:04:42 EDT" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:55 EDT" name="setUp" finished-at="2023-04-10T21:18:59 EDT" duration-ms="4338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingEmptyUsernameAndValidPassworddd()[pri:4, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:59 EDT" name="VerifyLoggingintoTheApplicationUsingEmptyUsernameAndValidPassworddd" finished-at="2023-04-10T21:18:59 EDT" duration-ms="475" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:42 EDT" name="setUp" finished-at="2023-04-11T21:04:51 EDT" duration-ms="9540" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Cannot invoke "java.lang.CharSequence.toString()" because "s" is null]]>
+              <![CDATA[timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20872612778f7df2258f8a0ca71a83d9, clickElement {id=aec385bd-ba77-41b4-a500-7d3e3ce5a937}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\bouto\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61285/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20872612778f7df2258f8a0ca71a83d9)] -> link text: Login]
+Session ID: 20872612778f7df2258f8a0ca71a83d9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "s" is null
-at java.base/java.lang.String.contains(String.java:2854)
-at com.tutorialsninja.qa.testcases.LoginTest.VerifyLoggingintoTheApplicationUsingEmptyUsernameAndValidPassworddd(LoginTest.java:100)
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20872612778f7df2258f8a0ca71a83d9, clickElement {id=aec385bd-ba77-41b4-a500-7d3e3ce5a937}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\bouto\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61285/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20872612778f7df2258f8a0ca71a83d9)] -> link text: Login]
+Session ID: 20872612778f7df2258f8a0ca71a83d9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at com.tutorialsninja.qa.testcases.LoginTest.setUp(LoginTest.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
@@ -665,33 +325,142 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyLoggingintoTheApplicationUsingEmptyUsernameAndValidPassworddd()[pri:4, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:51 EDT" name="VerifyLoggingintoTheApplicationUsingEmptyUsernameAndValidPassworddd" finished-at="2023-04-11T21:04:51 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20872612778f7df2258f8a0ca71a83d9, clickElement {id=aec385bd-ba77-41b4-a500-7d3e3ce5a937}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\bouto\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61285/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20872612778f7df2258f8a0ca71a83d9)] -> link text: Login]
+Session ID: 20872612778f7df2258f8a0ca71a83d9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20872612778f7df2258f8a0ca71a83d9, clickElement {id=aec385bd-ba77-41b4-a500-7d3e3ce5a937}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\bouto\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61285/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20872612778f7df2258f8a0ca71a83d9)] -> link text: Login]
+Session ID: 20872612778f7df2258f8a0ca71a83d9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at com.tutorialsninja.qa.testcases.LoginTest.setUp(LoginTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingEmptyUsernameAndValidPassworddd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:18:59 EDT" name="tearDown" finished-at="2023-04-10T21:19:00 EDT" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:51 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1681261491604" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:19:00 EDT" name="setUp" finished-at="2023-04-10T21:19:04 EDT" duration-ms="4258" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:51 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1681261491605" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingValidUsernameAndEmptyPassworddd()[pri:5, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:19:04 EDT" name="VerifyLoggingintoTheApplicationUsingValidUsernameAndEmptyPassworddd" finished-at="2023-04-10T21:19:04 EDT" duration-ms="490" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingValidUsernameAndEmptyPassworddd()[pri:5, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:51 EDT" name="VerifyLoggingintoTheApplicationUsingValidUsernameAndEmptyPassworddd" finished-at="2023-04-11T21:04:51 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Cannot invoke "java.lang.CharSequence.toString()" because "s" is null]]>
+              <![CDATA[timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20872612778f7df2258f8a0ca71a83d9, clickElement {id=aec385bd-ba77-41b4-a500-7d3e3ce5a937}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\bouto\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61285/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20872612778f7df2258f8a0ca71a83d9)] -> link text: Login]
+Session ID: 20872612778f7df2258f8a0ca71a83d9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "s" is null
-at java.base/java.lang.String.contains(String.java:2854)
-at com.tutorialsninja.qa.testcases.LoginTest.VerifyLoggingintoTheApplicationUsingValidUsernameAndEmptyPassworddd(LoginTest.java:115)
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20872612778f7df2258f8a0ca71a83d9, clickElement {id=aec385bd-ba77-41b4-a500-7d3e3ce5a937}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\bouto\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61285/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20872612778f7df2258f8a0ca71a83d9)] -> link text: Login]
+Session ID: 20872612778f7df2258f8a0ca71a83d9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at com.tutorialsninja.qa.testcases.LoginTest.setUp(LoginTest.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
@@ -716,33 +485,66 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingValidUsernameAndEmptyPassworddd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:19:04 EDT" name="tearDown" finished-at="2023-04-10T21:19:04 EDT" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:51 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1681261491618" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:19:04 EDT" name="setUp" finished-at="2023-04-10T21:19:09 EDT" duration-ms="4154" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:51 EDT" name="setUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1681261491619" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoggingintoTheApplicationUsingEmptyUsernameAndEmptyPassworddd()[pri:6, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:19:09 EDT" name="VerifyLoggingintoTheApplicationUsingEmptyUsernameAndEmptyPassworddd" finished-at="2023-04-10T21:19:09 EDT" duration-ms="419" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="VerifyLoggingintoTheApplicationUsingEmptyUsernameAndEmptyPassworddd()[pri:6, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:51 EDT" name="VerifyLoggingintoTheApplicationUsingEmptyUsernameAndEmptyPassworddd" finished-at="2023-04-11T21:04:51 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Cannot invoke "java.lang.CharSequence.toString()" because "s" is null]]>
+              <![CDATA[timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20872612778f7df2258f8a0ca71a83d9, clickElement {id=aec385bd-ba77-41b4-a500-7d3e3ce5a937}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\bouto\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61285/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20872612778f7df2258f8a0ca71a83d9)] -> link text: Login]
+Session ID: 20872612778f7df2258f8a0ca71a83d9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.CharSequence.toString()" because "s" is null
-at java.base/java.lang.String.contains(String.java:2854)
-at com.tutorialsninja.qa.testcases.LoginTest.VerifyLoggingintoTheApplicationUsingEmptyUsernameAndEmptyPassworddd(LoginTest.java:129)
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20872612778f7df2258f8a0ca71a83d9, clickElement {id=aec385bd-ba77-41b4-a500-7d3e3ce5a937}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\bouto\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61285/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (20872612778f7df2258f8a0ca71a83d9)] -> link text: Login]
+Session ID: 20872612778f7df2258f8a0ca71a83d9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at com.tutorialsninja.qa.testcases.LoginTest.setUp(LoginTest.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
@@ -767,15 +569,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoggingintoTheApplicationUsingEmptyUsernameAndEmptyPassworddd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@21e360a]" started-at="2023-04-10T21:19:09 EDT" name="tearDown" finished-at="2023-04-10T21:19:09 EDT" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.LoginTest@2f217633]" started-at="2023-04-11T21:04:51 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1681261491622" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tutorialsninja.qa.testcases.LoginTest -->
-    </test> <!-- Tutorialsninja Tests -->
-  </suite> <!-- TutorialsNinja automation suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

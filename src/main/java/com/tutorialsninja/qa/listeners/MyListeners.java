@@ -1,4 +1,4 @@
-package com.tutorialsninja.qa.listerners;
+package com.tutorialsninja.qa.listeners;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;

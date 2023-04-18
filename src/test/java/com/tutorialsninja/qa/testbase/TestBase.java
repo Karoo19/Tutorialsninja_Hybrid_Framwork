@@ -26,7 +26,7 @@ public class TestBase {
     	 File propFile = new File((System.getProperty("user.dir")+"\\src\\main\\java\\com\\tutorialsninja\\qa\\config\\config.properties"));
     	 
     	 dataProp = new Properties();
-    	File dataPropFile = new File(System.getProperty("user.dir")+"src\\main\\java\\com\\tutorialsninja\\qa\\testdata\\testdata.properties");
+    	File dataPropFile = new File(System.getProperty("user.dir")+"\\src\\main\\java\\com\\tutorialsninja\\qa\\testdata\\testdata.properties");
     try {
     	FileInputStream dataFis = new FileInputStream(dataPropFile);
    	    dataProp.load(dataFis);
