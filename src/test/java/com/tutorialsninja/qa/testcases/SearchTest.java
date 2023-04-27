@@ -30,8 +30,8 @@ public class SearchTest extends TestBase {
 	}
 	
 	@Test(priority=2)
-	public void verifySearchwithInvalidproduct() {
-		
+	public void verifySearchwithInvalidProduct() {
+	
 		driver.findElement(By.name("search")).sendKeys(dataProp.getProperty("invalidProduct"));
 		driver.findElement(By.xpath("//div[@id='search']/descendant::button")).click();
 		
@@ -40,8 +40,8 @@ public class SearchTest extends TestBase {
 		
 	}
 	
-	@Test(priority=3,dependsOnMethods= {"VerifySearchWithValidproduct"})
-	public void verifySearchWithoutAnyproduct() {
+	@Test(priority=3,dependsOnMethods= {"verifySearchWithValidProduct"})
+	public void verifySearchWithoutAnyProduct() {
 		
 		driver.findElement(By.name("search")).sendKeys("");
 		driver.findElement(By.xpath("//div[@id='search']/descendant::button")).click();
